@@ -1,0 +1,147 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+hr{
+    border: dotted red 8px;
+    border-bottom:none;
+    width: 8%;
+    margin: 30px auto 30px auto;
+}
+
+input, textarea{
+    width:70%;
+    margin-bottom:30px;
+    border-radius:5px;
+    padding:15px 15px;
+    border-color: red;
+    margin-left:15%;
+}
+
+.send-button{
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin: 2% 42% 5% 42%;
+    text-align:center;
+    font-size: 15px;
+    display:flex;
+}
+
+.send-button:hover{
+    background-color:pink;
+    
+}
+
+.container-fluid{
+    position:relative;
+}
+
+.heading-intro{
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    left: 30%;
+    background-color: white;
+    border: solid;
+    border-color:red;
+}
+
+.nav-item{
+    text-align: center;
+    margin: 10px 30px 0 30px;
+    padding-bottom: 0;
+}
+
+.contact-button{
+    margin-right: 10%;
+}
+
+.jsu-building{
+    width:100%;
+}
+
+.jsu-name{
+    color:red;
+}
+
+.intro-container{
+    text-align: center;
+    margin: 3% auto 2% auto;
+}
+
+.phone{
+    width: 30px;
+    height: 30px;
+}
+.email{
+    width:30px;
+    height: 30px;
+}
+.footer-container{
+    text-align:center;
+    padding: 5% auto;
+}
+
+.pi-intro{
+    text-align:center;
+    margin: 3% auto 2% auto;
+}
+
+.intro-paragraph{
+    margin-bottom:0;
+}
+
+.drg-pic{
+    height:400px;
+    width:320px;
+    position:absolute;
+    left:25%;
+}
+
+.about-drg{
+    /* text-align:center; */
+    padding-top:1%;
+    padding-bottom: 5%;
+}
+
+.experience-container{
+    margin: 3% auto;
+    padding-left: 10%;
+
+}
+.exp-title{
+    padding-left:15%;
+}
+
+.publications-container{
+    margin: auto 10%;
+    padding: auto 20%;
+}
+
+.team-container{
+    text-align:center;
+}
+
+.team-pic{
+    height:400px;
+    width:300px;
+}
+
+.list{
+    text-align:center;
+}
+
+.news-container{
+    text-align:center;
+    margin: 4% auto;
+}
+
+#title{
+    background-color: black;
+}
+
+#footer{
+    background-color: black;
+}
