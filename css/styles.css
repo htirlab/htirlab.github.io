@@ -67,7 +67,11 @@ input, textarea{
 }
 
 .intro-container{
-    text-align: center;
+    text-align:center;
+    margin: 3% auto 2% auto;
+}
+
+.welcome-container{
     margin: 3% auto 2% auto;
 }
 
@@ -106,12 +110,32 @@ input, textarea{
     padding-bottom: 5%;
 }
 
-.experience-container{
+.news-image{
+    text-align: center;
+    margin-bottom: 2%;
+    width: 600px;
+    height:300px;
+}
+
+.media-logo{
+    width:19%;
+    
+}
+
+.carousel-item{
+    margin: auto 1% auto 3%;
+    padding: 5% 20%;
+    background-color: black;
+    text-align:center;
+    color: white;
+}
+
+.past-members-container{
     margin: 3% auto;
     padding-left: 10%;
 
 }
-.exp-title{
+.past-member-name{
     padding-left:15%;
 }
 
@@ -144,4 +168,9 @@ input, textarea{
 
 #footer{
     background-color: black;
+}
+
+#media{
+    margin: 5% 15%;
+    text-align: center;
 }
