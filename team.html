@@ -15,19 +15,25 @@
         <section id = "title">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand">HTIR Lab</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <a class="navbar-brand">HTIR Lab</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                
+                  </button>
+          
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  
                     <ul class="navbar-nav ms-auto">
-                        <li class ="nav-item ms-auto">
+                        <li class ="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class ="nav-item">
+                            <a class="nav-link" href="research.html">Research Areas</a>
+                        </li>
+                        <li class ="nav-item">
                             <a class="nav-link" href="publications.html">Publications</a>
+                        </li>
+                        <li class ="nav-item">
+                            <a class="nav-link" href="news.html">Lab News</a>
                         </li>
                         <li class ="nav-item">
                             <a class="nav-link" href="team.html">Team</a>
@@ -39,7 +45,7 @@
                             <a class="nav-link" href="contact.html"><button type="button" class="btn btn-outline-danger contact-button">Contact</button></a>
                         </li>
                     </ul>
-                </div>
+                  </div>
                 </nav>
 
             </div>
@@ -50,12 +56,15 @@
             <div class="container aboutme-container">
 
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
+                        <!-- <div class="image"></div> -->
                         <br>
                         <br>
-                        <img class="drg-pic" src="images/drghosh.jpg" alt="Dr.Ghosh">
+                        <div class="drg-pic">
+                            <img src="./images/drghosh.jpg" alt="Dr.Ghosh">
+                        </div>
                     </div>
-                    <div class="col-md-6 about-drg">
+                    <div class="col-lg-6 about-drg">
                         <h4 style="text-align:center">About the PI</h4>
                         <div class="container pi-intro">
                             <h5>Dr. Arup Ghosh</h5>
@@ -87,39 +96,35 @@
             </div>
             <div class="container team-container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
+                        <img class="team-img" src="images/sabin.jpg" alt="">
                         <h3>Sabin Banjara</h3>
                         <p>Researcher</p>
-                        <!-- <img src="" alt=""> -->
                     </div>                    
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
+                        <img class="team-img" src="images/sudeep.jpg" alt="">
                         <h3>Sudeep Joshi</h3>
                         <p>Undergraduate Student</p>
-                        <!-- <img src="" alt=""> -->
-                        <hr>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
+                        <img class="team-img" src="images/jakob.jpg" alt="">
                         <h3>Jakob Skipper</h3>
                         <p>Undergraduate Student</p>
-                        <!-- <img src="" alt=""> -->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
+                        <img class="team-img" src="images/grant.png" alt="">
                         <h3>Grant Caldwell</h3>
                         <p>Undergraduate Student</p>
                         <!-- <img src="" alt=""> -->
                     </div>
-                    <div class="col-md-4">
-                        <h3>Ryan Eubanks</h3>
-                        <p>Undergraduate Student</p>
-                        <!-- <img src="" alt=""> -->
-                        <hr>
-                    </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
+                        <img class="team-img" src="images/jahnvi.jpg" alt="">
                         <h3>Jhanvi Patel</h3>
                         <p>Graduate Student</p>
                         <!-- <img src="" alt=""> -->
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
+                        <img class="team-img" src="images/mausam.png" alt="">
                         <h3>Mausam Parajuli</h3>
                         <p>Graduate Student</p>
                         <!-- <img src="" alt=""> -->
@@ -141,8 +146,18 @@
                     Tiffany O'Dell
                 </p>
             </div>
-            <div class="col-sm-6">                       
+            <div class="col-sm-6 past-member-status">                       
                 <p class="exp-date">Graduate Student</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 past-member-name">
+                <p>
+                    Ryan Eubanks
+                </p>
+            </div>
+            <div class="col-sm-6 past-member-status">                       
+                <p class="exp-date">Undergraduate Student</p>
             </div>
         </div>
         <div class="row">
@@ -151,7 +166,7 @@
                     Barbara Moore
                </p>
             </div>
-            <div class="col-sm-6">                       
+            <div class="col-sm-6 past-member-status">                       
                 <p class="exp-date">Undergraduate Student</p>
             </div>
         </div>
@@ -161,7 +176,7 @@
                     Sushant Chhetry
                 </p>
             </div>
-            <div class="col-sm-6">                        
+            <div class="col-sm-6 past-member-status">                        
                 <p class="exp-date">Undergraduate Student</p>
             </div>
         </div>
@@ -171,7 +186,7 @@
                     Zaria Coprich
                 </p>
             </div>
-            <div class="col-sm-6">                       
+            <div class="col-sm-6 past-member-status">                       
                 <p class="exp-date">Graduate Student</p>
             </div>
         </div>
@@ -181,7 +196,7 @@
                     Celia Calhoun
                 </p>
             </div>
-            <div class="col-sm-6">                       
+            <div class="col-sm-6 past-member-status">                       
                 <p class="exp-date">Undergraduate Student</p>
             </div>
         </div>

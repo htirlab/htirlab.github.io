@@ -15,19 +15,25 @@
         <section id = "title">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand">HTIR Lab</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <a class="navbar-brand">HTIR Lab</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                
+                  </button>
+          
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  
                     <ul class="navbar-nav ms-auto">
-                        <li class ="nav-item ms-auto">
+                        <li class ="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class ="nav-item">
+                            <a class="nav-link" href="research.html">Research Areas</a>
+                        </li>
+                        <li class ="nav-item">
                             <a class="nav-link" href="publications.html">Publications</a>
+                        </li>
+                        <li class ="nav-item">
+                            <a class="nav-link" href="news.html">Lab News</a>
                         </li>
                         <li class ="nav-item">
                             <a class="nav-link" href="team.html">Team</a>
@@ -39,7 +45,7 @@
                             <a class="nav-link" href="contact.html"><button type="button" class="btn btn-outline-danger contact-button">Contact</button></a>
                         </li>
                     </ul>
-                </div>
+                  </div>
                 </nav>
 
             </div>
@@ -48,11 +54,13 @@
         <section id="contact-form">
             <div class="container contact-container">
                 <h1 style="text-align:center; margin: 30px auto;">Contact Form</h1>
-                <form onsubmit="emailSend(); reset()">
+                <form action="https://formsubmit.co/joshisudipsj01@gmail.com" method="POST" />
                     <input type="text" name="name" placeholder="Your Name" autocomplete="off" required>
                     <input type="email" name="email" placeholder="Your Email Address" autocomplete="off" required>
                     <input type="text" name="subject" placeholder="Subject" autocomplete="off" required>
+                    <input type="hidden" name="_captcha" value="false">
                     <textarea name="message" placeholder="Your message" cols="50" rows="6" autocomplete="off" required></textarea>
+                    <input type="hidden" name="_next" value="https://htirlab.github.io/thanks.html">
                     <button class="send-button"type="submit">Send Message</button>
                 </form>
                 
@@ -76,13 +84,16 @@
 
             </div>  
         </section>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>  
     <script>
         function emailSend(){
             Email.send({
                 // Host : "smtp.elasticemail.com", SecureToken
                 // Username : "username",
                 // Password : "password",
+                Host: "smtp.google.com", 
+                Username: "htirlab@gmail.com",
+                Password: "fe9aa77e-d0d0-4b0f-88ae-03d08f30615a",
                 To : 'akghosh@jsu.edu',
                 From : document.getElementsByName("name").value,
                 Subject : document.getElementsByName("subject").value,
@@ -93,6 +104,6 @@
             message => alert("Your message has been sent successfully!")
             );
         }
-    </script>  
+    </script>   -->
     </body>
 </html>
